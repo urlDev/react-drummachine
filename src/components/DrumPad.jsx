@@ -25,6 +25,7 @@ class DrumPad extends Component {
 				<div className="drums">
 					{bank.map((d) => (
 						<PadItem
+                        // coming from paditem(data) but we also called them there as props
 							id={d.id}
 							keyTrigger={d.keyTrigger}
 							keyCode={d.keyCode}
