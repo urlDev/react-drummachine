@@ -1,0 +1,28 @@
+.drum-pad {
+    border: .4rem solid #3B240F;
+    border-radius: .5rem;
+    float: left;
+    margin: 0.5rem;
+    width: 6rem;
+    padding: 10px;
+    transition: all 0.2s ease;
+    text-align: center;
+    color: #151153;
+    font-weight: 600;
+    background: rgba(43, 52, 77, 0.082);
+    text-shadow: 0 0 0.5rem #2B344D;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #E9B835;
+    box-shadow: 0 0 1rem #E9B835;
+}
+
+
+/* @media (max-width: 900px) {
+    .drum-pad {
+        float: right;
+        flex:2;
+    }
+} */
